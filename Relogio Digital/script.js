@@ -16,7 +16,7 @@ setInterval(function(){
         hours = "0" + minutes;
     }
     if(seconds < 10){
-        hours = "0" + seconds;
+       /* hours = "0" + seconds;*/
     }
     time.textContent= hours +":" + minutes + ":" + seconds/* + " " + day_night*/;
 })
